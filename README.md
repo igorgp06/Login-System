@@ -1,13 +1,10 @@
 <div align="center">
-    <img src="/login_system/static/image/biblioteca.png" width="350 
+  <img src="static/image/biblioteca.png" widht="350" height="350" alt="Login-System Logo"/></a>
 </div>
-
-#
 
 # Sistema de login e cadastro usando Python e SQLite3
 
-
-#### Um sistema de login e cadastro. Ele usa fundamentalmente a linguagem Python e SQlite3 como banco de dados.
+#### Um sistema de login e cadastro. Ele usa fundamentalmente a linguagem Python e SQlite3.
 
 # Introdução
 
@@ -19,15 +16,12 @@ E finalmente, usando o *hashlib* fizemos um sistema que faz a criptografia das s
 # Funcionalidades
 
 * #### Cadastro de Usuários: 
-   Permite que novos usuários se cadastrem no sistema com validação de dados, impedindo nomes de usuários duplicados, senhas pequenas e etc. 
+   Permite que novos usuários se cadastrem no sistema com validação de dados, impedindo nomes de usuários duplicados, senhas pequenas e etc.  
    Acesse diretamente o vídeo no YouTube de como funciona o cadastro de usuários e o banco de dados [aqui](https://youtu.be/rsVSY0c1MCM?si=g-8UxsoO0w8AmlxR).
-   Os vídeos também podem ser encontrados em `../login_system/static/videos..`.
-
 
 * #### Login de Usuários: 
-   Autenticação de usuários cadastrados, validando o nome de usuário e a senha e assim liberando o seu acesso.
+   Autenticação de usuários cadastrados, validando o nome de usuário e a senha e assim liberando o seu acesso.  
    Acesse diretamente o vídeo no YouTube para ver como funciona o login de usuários [aqui](https://youtu.be/LRzlxlElqAE?si=dwNsddA_pemRrT-p).
-   Os vídeos podem ser encontrados em `../login_system/static/videos..`.
 
 * #### Armazenamento Seguro: 
    Usando o `sha256` da bliblioteca `hashlib`, nós criptografamos as senhas dos usuários antes de enviar as informações ao banco de dados. Assim que o usuário que o tenta fazer login e as informações coincidem, a senha é descriptografada e autenticada, liberando assim, o login do usuário.
@@ -58,7 +52,7 @@ E finalmente, usando o *hashlib* fizemos um sistema que faz a criptografia das s
 
 1. Clone o repositório:
    ~~~bash
-   git clone https://github.com/igorgp06/login_system.git
+   git clone https://github.com/igorgp06/Login-System.git
    ~~~
 
 2. Crie um ambiente virtual (opcional, porém recomendado):
@@ -77,14 +71,14 @@ E finalmente, usando o *hashlib* fizemos um sistema que faz a criptografia das s
 
 1. Navegue até o diretório do projeto:
    ~~~Bash
-   cd login_system
+   cd Login-System
    ~~~
 2. Execute o script principal:
    ~~~Bash
    python main.py
    ~~~
 
-Lembre-se, os vídeos de como funciona o sistema de login, cadastro e como abrir o banco de dados podem ser encontrados no []em `../login_system/static/videos..` 
+Lembre-se, os vídeos de como funciona o sistema de login, cadastro e como abrir o banco de dados podem ser encontrados diretamente no YouTube.
 
 # Detalhes Técnicos
 #### Aqui vai estar os pricipais detalhes técnicos do sistema, explicando como a tabela está dividida, como a criptografia funciona neste código e os datalhes de como funciona a validação dos dados e capturas de possiveis erros nos sistema.
@@ -105,12 +99,14 @@ Lembre-se, os vídeos de como funciona o sistema de login, cadastro e como abrir
       <img src="static/image/db_exemple.png" width="700">
    </div>
 
-   **Tabela `users`** - Tabela criada para armazenar os dados dos usuários.
-   **ID** - Responsável por gerar um número de identificação pro usuário em ordem       crescente.
-   **Username** - Nome que o usuário escolheu e será usado para o efetuar o login.  
-   **UserEmail** - Email do usuário, não possui validação.  
-   **UserPassword** - Senha criptografada do usuário.  
-   **UserPasswordConf** - Confirmação da senha do usuário, ela também é criptografada.
+Cada uma dessas seções tem seu significado e importância, sendo elas:
+
+   **Tabela `users`** - Tabela criada para armazenar os dados dos usuários.  
+   **ID** - Responsável por gerar um número de identificação pro usuário em ordem crescente.  
+   **Username** - Nome que o usuário escolheu e será usado para o efetuar o login.    
+   **UserEmail** - Email do usuário, não possui validação.    
+   **UserPassword** - Senha criptografada do usuário.    
+   **UserPasswordConf** - Confirmação da senha do usuário, ela também é criptografada.  
 
    ### Criptografia
 
@@ -223,16 +219,16 @@ Lembre-se, os vídeos de como funciona o sistema de login, cadastro e como abrir
 
 # Contribuindo
 
-Contribuições são sempre bem-vindas! Sinta-se a vontade para relatar bugs, sugestões e melhorias no [issues](https://github.com/igorgp06/login_system/issues).
-Correção de bugs e novas funcionalidades também são sempre muito bem vindas, crie um `pull request` [aqui](https://github.com/igorgp06/login_system/pulls) e ajude-me com suas melhorias e correções.
+Contribuições são sempre bem-vindas! Sinta-se a vontade para relatar bugs, sugestões e melhorias no [issues](https://github.com/igorgp06/Login-System/issues).    
+Correção de bugs e novas funcionalidades também são sempre muito bem vindas, crie um `pull request` [aqui](https://github.com/igorgp06/Login-System/pulls) e ajude-me com suas melhorias e correções.
 
 ## Licença e código de Conduta
 
-O projeto Login System esá sujeito a licença [APACHE LICENSE 2.0](https://www.apache.org/licenses/LICENSE-2.0).
+O projeto Login-System esá sujeito a licença [APACHE LICENSE 2.0](https://www.apache.org/licenses/LICENSE-2.0).
 
-Por favor, siga o `NOTICE`, `CODE OF CONDUCT` e leia a `LICENSE` desse projeto. Informações  em `../login_system/about..`
+Por favor, siga o `NOTICE`, `CODE OF CONDUCT` e leia a `LICENSE` desse projeto para evitar incomodações futuras.
 
-Leia nosso [CODE OF CONDUCT](https://github.com/igorgp06/login_system/blob/master/about/CODE_OF_CONDUCT.md).
+Leia nosso [CODE OF CONDUCT](https://github.com/igorgp06/Login-System/blob/master/CODE_OF_CONDUCT.md).
 
 ## Contato
 
@@ -244,7 +240,7 @@ Igor Gonçalves Pinheiro ou [igorgp06](https://github.com/igorgp06)
 
 ### Créditos
 
-As imagens usadas no projeto foram retiradas da [storyset](https://storyset.com/illustration/mobile-login/cuate). 
+As imagens usadas no projeto foram retiradas da [storyset](https://storyset.com). 
 
    [login.png](https://storyset.com/illustration/mobile-login/cuate)
 
@@ -257,24 +253,23 @@ As imagens usadas no projeto foram retiradas da [storyset](https://storyset.com/
   <a href="https://discord.com/channels/@me" target="_blank"> <img src="https://img.shields.io/static/v1?message=Discord&logo=discord&label=&color=7289DA&logoColor=white&labelColor=&style=for-the-badge" height="30" alt="discord logo"></a>
   <a href="https://www.youtube.com/channel/UCka20SjP7fwABfHGbt_xwjg" target="_blank"> <img src="https://img.shields.io/static/v1?message=Youtube&logo=youtube&label=&color=FF0000&logoColor=white&labelColor=&style=for-the-badge" height="30" alt="youtube logo"/></a>
   <a href="https://twitter.com/igorgp06" target="_blank"> <img src="https://img.shields.io/static/v1?message=Twitter&logo=twitter&label=&color=1DA1F2&logoColor=white&labelColor=&style=for-the-badge" height="30" alt="twitter logo"/></a>
-  <a href="https://github.com/igorgp06" target="_blank"> <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white
-  " height="30" alt="github logo"/></a>
+  <a href="https://github.com/igorgp06" target="_blank"> <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" height="30" alt="github logo"/></a>
 </div>
 
 ## Repository Status
 
 <div align="left">
-   <a href="https://img.shields.io/github/commits-since/{igorgp06}/{login_system}/{1.0.0}.svg" target="_blank"> 
-   <img src="https://img.shields.io/github/commits-since/{igorgp06}/{login_system}/{1.0.0}.svg" height="20" alt="commits-since"/></a>
+   <a href="https://img.shields.io/github/commits-since/igorgp06/Login-System/{1.0.0}.svg" target="_blank"> 
+   <img src="https://img.shields.io/github/commits-since/{igorgp06}/Login-System/{1.0.0}.svg" height="20" alt="commits-since"/></a>
    
-   <a href="(https://img.shields.io/github/downloads-since/{igorgp06}/{login_system}/{1.0.0}.svg)" target="_blank">
-   <img src="https://img.shields.io/github/downloads-since/{igorgp06}/{login_system}/{1.0.0}.svg" height="20" alt="downloads-since"/></a>
+   <a href="https://img.shields.io/github/downloads-since/{igorgp06}/Login-Systemt}/{em1.0.0}.svg" target="_blank">
+   <img alt="GitHub Downloads (all assets, latest release)" src="https://img.shields.io/github/downloads/igorgp06/Login-System/latest/total" height="20" alt="downloads-since"/></a>
 
-   <a href="https://img.shields.io/github/forks/{igorgp06}/{login_system}.svg" target="_blank">
-   <img src="https://img.shields.io/github/forks/{igorgp06}/{login_system}.svg" height="20" alt="forks"/></a>
+   <a href="https://img.shields.io/github/forks/{igorgp06}/Login-System.svg" target="_blank">
+   <img alt="GitHub forks" src="https://img.shields.io/github/forks/igorgp06/Login-System" height="20" alt="forks"/></a>
 
-   <a href="https://img.shields.io/github/watchers/igorgp06/{login_system}.svg" target="_blank">
-   <img src="https://img.shields.io/github/watchers/igorgp06/{login_system}.svg" height="20" alt="watchers"/></a>
+   <a href="https://img.shields.io/github/watchers/igorgp06/Login-System.svg" target="_blank">
+   <img src="https://img.shields.io/github/watchers/igorgp06/Login-System.svg" height="20" alt="watchers"/></a>
 
    <a href="https://www.apache.org/licenses/LICENSE-2.0" target="_blank">
    <img src="https://img.shields.io/:license-Apache%202-blue.svg" height="20" alt=" apache license"/></a>
