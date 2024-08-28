@@ -259,9 +259,10 @@ As imagens usadas no projeto foram retiradas da [storyset](https://storyset.com)
 ## Repository Status
 
 <div align="left">
-   <a href="https://img.shields.io/github/commits-since/igorgp06/Login-System/{1.0.0}.svg" target="_blank"> 
-   <img src="https://img.shields.io/github/commits-since/{igorgp06}/Login-System/{1.0.0}.svg" height="20" alt="commits-since"/></a>
-   
+  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/igorgp06/Login-System" height="20" alt="Top Language">
+
+   <img src="https://img.shields.io/github/commits-since/igorgp06/Login-System/v1.0.0.svg" height="20" alt="commits-since">
+  
    <a href="https://img.shields.io/github/downloads-since/{igorgp06}/Login-Systemt}/{em1.0.0}.svg" target="_blank">
    <img alt="GitHub Downloads (all assets, latest release)" src="https://img.shields.io/github/downloads/igorgp06/Login-System/latest/total" height="20" alt="downloads-since"/></a>
 
