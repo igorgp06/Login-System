@@ -73,7 +73,11 @@ E finalmente, usando o *hashlib* fizemos um sistema que faz a criptografia das s
    ~~~Bash
    cd Login-System
    ~~~
-2. Execute o script principal:
+2. Entre na pasta `main`
+   ~~~Bash
+   cd main
+   ~~~
+4. Execute o script principal:
    ~~~Bash
    python main.py
    ~~~
