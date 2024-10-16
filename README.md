@@ -79,7 +79,7 @@ E finalmente, usando o *hashlib* fizemos um sistema que faz a criptografia das s
    ~~~
 4. Execute o script principal:
    ~~~Bash
-   python main.py
+   python app.py
    ~~~
 
 Lembre-se, os vídeos de como funciona o sistema de login, cadastro e como abrir o banco de dados podem ser encontrados diretamente no YouTube.
