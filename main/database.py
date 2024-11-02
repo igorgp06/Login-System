@@ -98,7 +98,7 @@ class Banco_de_Dados():
 
             if existing_email:
                 messagebox.showerror(title="Erro 008",
-                                    message="O email inserido já existe!\nFavor, escolha outro email.")
+                                    message="O email inserido já está em uso!\nFavor, faça login ou escolha outro email.")
                 return
 
             # Inserindo os dados na tabela se não ouver nenhum erro
