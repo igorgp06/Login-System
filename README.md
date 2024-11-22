@@ -256,7 +256,7 @@ As imagens usadas no projeto foram retiradas da [storyset](https://storyset.com)
   <a href="https://www.instagram.com/igorgp.06/" target="_blank"> <img src="https://img.shields.io/static/v1?message=Instagram&logo=instagram&label=&color=E4405F&logoColor=white&labelColor=&style=for-the-badge" height="30" alt="instagram logo"/></a>
   <a href="https://discord.com/channels/@me" target="_blank"> <img src="https://img.shields.io/static/v1?message=Discord&logo=discord&label=&color=7289DA&logoColor=white&labelColor=&style=for-the-badge" height="30" alt="discord logo"></a>
   <a href="https://www.youtube.com/channel/UCka20SjP7fwABfHGbt_xwjg" target="_blank"> <img src="https://img.shields.io/static/v1?message=Youtube&logo=youtube&label=&color=FF0000&logoColor=white&labelColor=&style=for-the-badge" height="30" alt="youtube logo"/></a>
-  <a href="https://twitter.com/igorgp06" target="_blank"> <img src="https://img.shields.io/static/v1?message=Twitter&logo=twitter&label=&color=1DA1F2&logoColor=white&labelColor=&style=for-the-badge" height="30" alt="twitter logo"/></a>
+  <a href="https://x.com/igorgpDEV" target="_blank"> <img src="https://img.shields.io/static/v1?message=Twitter&logo=twitter&label=&color=1DA1F2&logoColor=white&labelColor=&style=for-the-badge" height="30" alt="twitter logo"/></a>
   <a href="https://github.com/igorgp06" target="_blank"> <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" height="30" alt="github logo"/></a>
 </div>
 
